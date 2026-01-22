@@ -108,60 +108,57 @@ body{
     background-color: burlywood;
 
 }
-
+/* ===== MOBILE HARD RESET ===== */
 @media (max-width: 768px) {
+
+  * {
+    transform: none !important;
+  }
 
   body {
     height: auto;
     overflow-x: hidden;
   }
 
+  .container {
+    padding: 10px;
+  }
+
   .card {
     position: relative;
-    top: 0;
-    left: 0;
-    margin: 20px auto;
-    width: 90%;
+    width: 100%;
     height: auto;
+    margin: 20px auto;
   }
 
   .outside,
   .inside {
-    padding: 1rem;
-  }
-
-  .outside h1,
-  .inside h1 {
-    font-size: 2rem;
+    position: relative;
+    height: auto;
+    backface-visibility: visible;
   }
 
   .block {
     position: relative;
-    top: 0;
-    right: 0;
-    margin-top: 40px;
+    margin-top: 30px;
   }
 
   .frames {
     position: relative;
     width: 100%;
     height: auto;
-    margin: 15px auto;
-    transform: none;
+    margin: 15px 0;
     flex-direction: column;
     text-align: center;
   }
 
   .frames img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     margin-bottom: 10px;
   }
 
   .frames h2 {
-    transform: none;
     font-size: 1rem;
   }
-
 }
-
