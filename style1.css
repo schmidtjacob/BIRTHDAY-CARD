@@ -29,8 +29,11 @@ body{
     transform-style: preserve-3d;
 }
 .card:hover{
-    transform: rotateY(180deg);
-}
+    transform: rotateY(180deg);}
+@media (max-width: 768px) {
+  .card:hover {
+    transform: none;
+  }
 .block{
     position: absolute;
     top:200px;
@@ -161,3 +164,4 @@ body{
   }
 
 }
+
