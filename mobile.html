@@ -9,14 +9,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 
   <style>
-    body {
-      margin: 0;
-      font-family: 'Montserrat', sans-serif;
-      background: linear-gradient(135deg, #ff9a9e, #fad0c4,url(top.gif));
-      color: #333;
-      text-align: center;
-    }
-
+ body {
+  min-height: 100vh;
+  background-color: #000; /* fallback */
+  background-image: url("top.gif");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
     .container {
       max-width: 600px;
       margin: auto;
