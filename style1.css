@@ -108,6 +108,10 @@ body{
     background-color: burlywood;
 
 }
+
+.titletext {
+    color: white;
+}
 /* ===== MOBILE HARD RESET ===== */
 @media (max-width: 768px) {
 
