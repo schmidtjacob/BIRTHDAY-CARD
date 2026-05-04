@@ -57,7 +57,7 @@ body{
 .outside h1 {
     font-size: 3rem;
     font-weight: bold;
-    color: #FFFFFF !important; /* This forces it to white */
+    color: black !important; /* This forces it to white */
     margin-bottom: 30px;
 }
 .inside{
