@@ -54,10 +54,10 @@ body{
     position: absolute;
     backface-visibility:hidden;
 }
-.outside h1{
+.outside h1 {
     font-size: 3rem;
     font-weight: bold;
-    color: salmon;
+    color: #FFFFFF !important; /* This forces it to white */
     margin-bottom: 30px;
 }
 .inside{
