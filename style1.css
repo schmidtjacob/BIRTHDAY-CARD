@@ -171,3 +171,13 @@ body{
 h1 {
     color: white;
 }
+
+/* This targets the h1 inside .outside specifically and forces it to white */
+.outside h1.titletext {
+    color: white !important;
+}
+
+/* Also, fix the salmon rule in the middle of the file to be safe */
+.outside h1 {
+    color: white !important;
+}
